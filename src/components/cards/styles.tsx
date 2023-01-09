@@ -12,4 +12,9 @@ export const CardItemStyled = styled.ul`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
+
+	&:hover {
+    transform: scale(1.1); 
+  }
 `

@@ -38,6 +38,10 @@ export const CloseButtonStd = styled.button`
   right: 0;
 	padding: 10px 20px;
   background: transparent;
+
+	&:hover {
+    transform: scale(1.1); 
+  }
 `;
 
 export const BackgroundStd = styled.div`

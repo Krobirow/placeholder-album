@@ -1,19 +1,20 @@
 import React from 'react';
+import { FooterCopyrightStd, FooterInnerStd, FooterStd } from './styles';
 
 const Footer: React.FC = (props: {}) => {
 	return (
-		<footer style={{ height: "100px", width: "1280px", margin: "0 auto", 
+		<FooterStd style={{ height: "100px", width: "1280px", margin: "0 auto", 
 			display: "flex", justifyContent: "center", alignItems: "center", padding: "40px 0" }}>
-			<div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-				<a
+			<FooterInnerStd>
+				<FooterCopyrightStd
 					href="https://www.linkedin.com/in/bohdanbilun/"
 					target="_blank"
 					rel="noopener noreferrer" >
 					Krobirow dev.
-				</a>
+				</FooterCopyrightStd>
 				<p>Copyright © all right reserved.</p>
-			</div>
-		</footer>
+			</FooterInnerStd>
+		</FooterStd>
 	);
 }
 
